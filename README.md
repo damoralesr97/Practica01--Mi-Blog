@@ -17,24 +17,23 @@ Para el mail se le agrego un vinculo con mailto: para que nos rediriga automáti
 En el párrafo de Todos los derechos reservados anadimos el comando &#169; para que nos incluya el símbolo de copyright.
 ![Captura7](capturas/captura7.jpg)
 ![Captura8](capturas/captura8.jpg)
-**Las páginas *.html deberán tener al menos una etiqueta section, article y aside.**
-Con estas etiquetas obtenemos tener la información de la pagina divida por secciones, en este caso las etiquetas <article> y <aside> forman parte de <section>. Con esto obtenemos la mejor distribución para la información de nuestra pagina.
+**Las páginas html deberán tener al menos una etiqueta section, article y aside.**
+Con estas etiquetas obtenemos tener la información de la pagina divida por secciones, en este caso las etiquetas article y aside forman parte de section. Con esto obtenemos la mejor distribución para la información de nuestra pagina.
  ![Captura9](capturas/captura9.jpg)
  ![Captura10](capturas/captura10.jpg)
  **De igual manera, se pide que al menos una de las páginas dentro del contenido de la etiqueta article, tengan los siguientes requisitos:**
- 
- 
- Una tabla con la siguiente estructura: 
+**-Una tabla con la siguiente estructura:** 
 Para esta pagina, se creo una tabla de posciones del campeonato ecuatoriano.
-Se uso la etiqueta <table> que nos facilita la creación de la tabla.
-Para los títulos de las columnas se uso la etiqueta <th>  que se usa para el encabezado de una columna.
-Para crear filas se utilizo la etiqueta <tr> y para las columnas que tendrán la información se utilizo la etiqueta <td>
- 
- 
-•	Un video de YouTube (ver, etiqueta <iframe>).
+Se uso la etiqueta table que nos facilita la creación de la tabla.
+Para los títulos de las columnas se uso la etiqueta th que se usa para el encabezado de una columna.
+Para crear filas se utilizo la etiqueta tr y para las columnas que tendrán la información se utilizo la etiqueta td
+![Captura11](capturas/captura11.jpg)
+![Captura12](capturas/captura12.jpg)
+**-Un video de YouTube (ver, etiqueta iframe).**
 La etiqueta iframe sirve para anclar a nuestra pagina un video, pagina web, archivo, etc. a nuestra pagina.
 Para este caso se anclo un video de youtube, debemos pasarle el parámetro src (source) en el que especificaremos el link del video de la siguiente manera https://www.youtube.com/embed/(identificador del video). Y también le pasamos 2 parametros adicionales para ajustar el tamaño de la ventana del video.
- 
+![Captura13](capturas/captura13.jpg)
+![Captura14](capturas/captura14.jpg)
   
 •	Manejar listas ordenadas o desordenadas con al menos cinco ítems. 
 Para este caso, al igual que el la etiqueta de navegación se creo una lista desordenada con la etiqueta <ul> y cada elemento de la lista con la etiqueta <li>.

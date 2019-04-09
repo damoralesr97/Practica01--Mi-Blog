@@ -28,7 +28,7 @@ Se uso la etiqueta table que nos facilita la creación de la tabla.
 Para los títulos de las columnas se uso la etiqueta th que se usa para el encabezado de una columna.
 Para crear filas se utilizo la etiqueta tr y para las columnas que tendrán la información se utilizo la etiqueta td
 ![Captura11](capturas/captura11.jpg)
-![Captura12](capturas/captura12.jpg)
+![Captura12](capturas/captura.jpg)
 ## -Un video de YouTube (ver, etiqueta iframe).
 La etiqueta iframe sirve para anclar a nuestra pagina un video, pagina web, archivo, etc. a nuestra pagina.
 Para este caso se anclo un video de youtube, debemos pasarle el parámetro src (source) en el que especificaremos el link del video de la siguiente manera https://www.youtube.com/embed/(identificador del video). Y también le pasamos 2 parametros adicionales para ajustar el tamaño de la ventana del video.

@@ -2,9 +2,7 @@
 Para el desarrollo de esta practica se eligió el tema del campeonato nacional de futbol, donde tenemos 6 paginas, la de inicio que contiene información de la Liga Pro y noticias, y otras 5 paginas que hablan sobre los 5 principales equipos de esta competición, a continuación se muestra el archivo con los html de cada pagina y tanto el código como la ejecución de la una de las paginas para evidenciar el menú de navegación.
 ![Captura1](capturas/captura1.jpg)
 Para el menú de navegación se utilizó una lista desordenada <ul>  con enlaces <a> en los elementos de listas <li> 
- 
- 
-
+![Captura2](capturas/captura2.jpg)
 Todas las páginas *.html deben estar estructuradas según el siguiente formato:
  
 En donde, la etiqueta <header> deberá contener una imagen (logo) relacionada al tema elegido.

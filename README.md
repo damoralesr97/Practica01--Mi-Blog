@@ -1,27 +1,30 @@
 **Estructurar un sitio web estático usando HTML5. El sitio web será informativo sobre un tema que será autoría del estudiante. El sitio web deberá contar con una página principal denominada index.html y debe contener al menos cinco páginas *.html más. Todas las páginas contaran con un menú de navegación que permitirá al usuario moverse entre todas las páginas HTML.**
 Para el desarrollo de esta practica se eligió el tema del campeonato nacional de futbol, donde tenemos 6 paginas, la de inicio que contiene información de la Liga Pro y noticias, y otras 5 paginas que hablan sobre los 5 principales equipos de esta competición, a continuación se muestra el archivo con los html de cada pagina y tanto el código como la ejecución de la una de las paginas para evidenciar el menú de navegación.
 ![Captura1](capturas/captura1.jpg)
-Para el menú de navegación se utilizó una lista desordenada <ul>  con enlaces <a> en los elementos de listas <li> 
+Para el menú de navegación se utilizó una lista desordenada ul  con enlaces a en los elementos de listas li. 
 ![Captura2](capturas/captura2.jpg)
-Todas las páginas *.html deben estar estructuradas según el siguiente formato:
- 
-En donde, la etiqueta <header> deberá contener una imagen (logo) relacionada al tema elegido.
-En la etiqueta header se coloco el logo de la Liga Pro, esta imagen esta almecenada en la carpeta “imagenes” por lo que se tuvo que usar una ruta relativa y se coloco una alternativa que mostrara un texto descriptivo de la imagen por si esta no llega a cargarse. 
-Adicionalmente a esta imagen se le coloco un vinculo para que nos lleve a la pagina de inicio. 
- 
- 
-Además, la etiqueta <footer> deberá tener la información del estudiante como nombres completos, organización, correo (usar hipervínculo, mailto), teléfono (usar hipervínculo, tel), además deberá tener el símbolo de copyright junto a la leyenda de “Todos los derechos reservados”. Por ejemplo, © Todos los derechos reservados
+![Captura3](capturas/captura3.jpg)
+**Todas las páginas *.html deben estar estructuradas según el siguiente formato:**
+![Captura4](capturas/captura4.jpg)
+**En donde, la etiqueta header deberá contener una imagen (logo) relacionada al tema elegido.**
+En la etiqueta header se coloco el logo de la Liga Pro, esta imagen esta almecenada en la carpeta imagenes por lo que se tuvo que usar una ruta relativa y se coloco una alternativa que mostrara un texto descriptivo de la imagen por si esta no llega a cargarse. 
+Adicionalmente a esta imagen se le coloco un vinculo para que nos lleve a la pagina de inicio.
+![Captura5](capturas/captura5.jpg)
+![Captura6](capturas/captura6.jpg)
+**Además, la etiqueta footer deberá tener la información del estudiante como nombres completos, organización, correo (usar hipervínculo, mailto), teléfono (usar hipervínculo, tel), además deberá tener el símbolo de copyright junto a la leyenda de “Todos los derechos reservados”. Por ejemplo, © Todos los derechos reservados**
 Para la etiqueta de footer o pie de pagina se agregaron párrafos con la información personal como nombre, institución, mail, teléfono y una que tenga el texto “Todos los derechos reservados”.
 Para el mail se le agrego un vinculo con mailto: para que nos rediriga automáticamente a nuestra aplicación de correo, lo mismo para el teléfono con la opción tel:.
 En el párrafo de Todos los derechos reservados anadimos el comando &#169; para que nos incluya el símbolo de copyright.
- 
- 
-Las páginas *.html deberán tener al menos una etiqueta <section>, <article> y <aside>.
+![Captura7](capturas/captura7.jpg)
+![Captura8](capturas/captura8.jpg)
+**Las páginas *.html deberán tener al menos una etiqueta section, article y aside.**
 Con estas etiquetas obtenemos tener la información de la pagina divida por secciones, en este caso las etiquetas <article> y <aside> forman parte de <section>. Con esto obtenemos la mejor distribución para la información de nuestra pagina.
+ ![Captura9](capturas/captura9.jpg)
+ ![Captura10](capturas/captura10.jpg)
+ **De igual manera, se pide que al menos una de las páginas dentro del contenido de la etiqueta article, tengan los siguientes requisitos:**
  
  
-De igual manera, se pide que al menos una de las páginas dentro del contenido de la etiqueta <article>, tengan los siguientes requisitos: 
-•	Una tabla con la siguiente estructura: 
+ Una tabla con la siguiente estructura: 
 Para esta pagina, se creo una tabla de posciones del campeonato ecuatoriano.
 Se uso la etiqueta <table> que nos facilita la creación de la tabla.
 Para los títulos de las columnas se uso la etiqueta <th>  que se usa para el encabezado de una columna.
